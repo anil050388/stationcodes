@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  /* background-color: #192444; */
+  margin: 1%;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-family:fantasy;
+    color: gold;
+}
+
+
+.mytable, .mytable1 {
+    overflow-x: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+  
