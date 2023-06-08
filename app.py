@@ -9,6 +9,7 @@ metaTags = [
 stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = Dash(__name__, meta_tags=metaTags, external_stylesheets=[
            dbc.themes.CYBORG, dbc.icons.BOOTSTRAP], use_pages=True)
+server = app.server
 
 app.layout = html.Div([
     html.Div(
@@ -26,5 +27,5 @@ app.layout = html.Div([
     dash.page_container
 ])
 
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=False, port=8050)
