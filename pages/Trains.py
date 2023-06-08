@@ -10,9 +10,6 @@ import plotly.express as px
 import pandas as pd
 import dash_bootstrap_components as dbc
 from pymongo import MongoClient
-import pymongoarrow
-from pymongoarrow.monkey import patch_all
-patch_all()
 
 
 dash.register_page(__name__)
