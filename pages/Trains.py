@@ -17,7 +17,17 @@ dash.register_page(__name__)
 # Making Connection
 #MONGODB_CONNECTION_STRING = os.getenv('MONGODB_CONNECTION_STRING')
 MONGODB_CONNECTION_STRING = os.getenv("TOKEN")
+print(MONGODB_CONNECTION_STRING)
 client = MongoClient(MONGODB_CONNECTION_STRING)
+
+# Send a ping to confirm a successful connection
+try:
+    client.admin.command('ping')
+    print("Pinged your deployment. You successfully connected to MongoDB!")
+except Exception as e:
+    print(e)
+
+
 db = client.metalprices
 collections = db["Schedule"]
 
