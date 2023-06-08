@@ -3,9 +3,6 @@ from dash import Dash, html, Input, Output, ctx, dcc, dash_table, callback
 import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
-from datetime import datetime, date, timedelta
-from numerize import numerize
 import json
 import dash
 from dash import clientside_callback
