@@ -2,7 +2,6 @@ import ast
 import dash_leaflet.express as dlx
 import dash_leaflet as dl
 import plotly.graph_objects as go
-from bson.objectid import ObjectId
 import os
 from dotenv import load_dotenv
 import dash
