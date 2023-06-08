@@ -16,7 +16,7 @@ dash.register_page(__name__)
 
 # Making Connection
 #MONGODB_CONNECTION_STRING = os.getenv('MONGODB_CONNECTION_STRING')
-MONGODB_CONNECTION_STRING = os.environ.get('TOKEN')
+MONGODB_CONNECTION_STRING = os.environ['TOKEN']
 client = MongoClient(MONGODB_CONNECTION_STRING)
 db = client.metalprices
 collections = db["Schedule"]
