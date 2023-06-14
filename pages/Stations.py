@@ -47,8 +47,6 @@ layout = html.Div([
                          clearable=False,
                          searchable=False,
                          style={'margin': '10px',
-                                'background': 'black',
-                                'color': 'white',
                                 'font-weight': 'bold',
                                 'width': '100%'}
                          )
