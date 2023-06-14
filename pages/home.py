@@ -9,7 +9,7 @@ layout = html.Div(children=[
 
     html.Div(children='''
 About:
-This is AK, learning new ways to visualize data and i have built this Application(still in development stage) by using Plotly Muli pages and  integration it with databases PostgreSQL and MongoDB. For Map visualization we have used Plotly and Dash Leaflet Heroku
+This is a small Application(still in development stage) by using Plotly Muli pages and  integration it with databases PostgreSQL and MongoDB. For Map visualization we have used Plotly and Dash Leaflet Heroku
 ''', style={'background':'black','color':'white'}),
 html.Br(),
     html.Div(children='''
