@@ -58,7 +58,7 @@ layout = html.Div(
                     html.Div(id='duration'),
                     html.Div(id='Fstation_code'),
                     html.Div(id='Tstation_code')
-                ])
+                ],className="card_container2")
             ])
         ]),
         html.Div(id="leaf_map"),
