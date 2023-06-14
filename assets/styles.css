@@ -21,4 +21,8 @@ h1 {
     border: 1px solid #ddd;
 }
 
-  
+#train_name, train_number, #duration, #Fstation_code, #Tstation_code {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
